@@ -50,6 +50,7 @@ public class Main extends Application {
             }
         });
         HBox filaBotones = new HBox(10, btnAgregar, btnEliminar, btnBuscar);
+        
         VBox layout = new VBox(10, campo, filaBotones, area);
         Scene scene = new Scene(layout, 400, 400);
         stage.setTitle("CRUD Completo - UMG");
